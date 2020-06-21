@@ -3,5 +3,5 @@ from django.urls import path
 from activity import views
 
 urlpatterns = [
-    path('get/', views.UserActivityView.as_view()),
+    path('', views.UserActivityView.as_view()),
 ]
